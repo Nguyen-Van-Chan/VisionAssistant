@@ -1,0 +1,84 @@
+{
+  "expo": {
+    "name": "Trợ lý Thị giác",
+    "slug": "vision-assistant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "vision-assistant",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Ứng dụng cần quyền truy cập camera để nhận diện đối tượng xung quanh bạn",
+        "NSPhotoLibraryUsageDescription": "Ứng dụng cần quyền truy cập thư viện ảnh để lưu ảnh",
+        "NSMicrophoneUsageDescription": "Ứng dụng cần quyền truy cập microphone để nhận lệnh giọng nói (sắp tới)",
+        "NSSpeechRecognitionUsageDescription": "Ứng dụng cần quyền nhận diện giọng nói để nhận lệnh từ bạn (sắp tới)"
+      },
+      "bundleIdentifier": "com.visionassistant.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#121212"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO"
+      ],
+      "package": "com.visionassistant.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow VisionAssistant to access your camera",
+          "microphonePermission": "Allow VisionAssistant to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Ứng dụng cần quyền truy cập thư viện ảnh để lưu ảnh",
+          "savePhotosPermission": "Ứng dụng cần quyền lưu ảnh vào thư viện của bạn",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": ["js", "jsx", "ts", "tsx", "json"]
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/nguyen-van-chan"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "nguyen-van-chan"
+      }
+    }
+  }
+}
