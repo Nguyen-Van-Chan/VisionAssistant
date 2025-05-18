@@ -60,10 +60,6 @@ dist/
 .env.production.local
 
 # Thư mục build của các nền tảng
-android/app/build/
-android/build/
-android/captures/
-android/local.properties
 ios/build/
 ios/Pods/
 ios/Podfile.lock

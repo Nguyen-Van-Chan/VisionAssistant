@@ -4,11 +4,11 @@
     "slug": "vision-assistant",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "dark",
     "scheme": "vision-assistant",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#121212"
     },
@@ -27,7 +27,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#121212"
       },
       "permissions": [
@@ -40,7 +40,7 @@
     },
     "web": {
       "bundler": "metro",
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       "expo-router",
@@ -73,7 +73,7 @@
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/nguyen-van-chan"
+      "url": "https://u.expo.dev/nguyenvanchan"
     },
     "extra": {
       "eas": {
