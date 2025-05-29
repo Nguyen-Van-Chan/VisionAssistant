@@ -233,3 +233,8 @@ VisionAssistant là ứng dụng di động được xây dựng bằng Expo/Rea
 
 - [Tài liệu Expo](https://docs.expo.dev/)
 - [Tài liệu React Native](https://reactnative.dev/docs/getting-started)
+- [Cài đặt llama](https://github.com/ggml-org/llama.cpp)
+
+## Demo
+https://youtube.com/shorts/ejBdoPY0UO0?si=MhkB2cn0cagMQerF
+- 
