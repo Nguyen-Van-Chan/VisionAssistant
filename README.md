@@ -114,6 +114,7 @@ VisionAssistant is a mobile application built with Expo/React Native that helps 
 
 - [Expo Documentation](https://docs.expo.dev/)
 - [React Native Documentation](https://reactnative.dev/docs/getting-started)
+- [Install llama](https://github.com/ggml-org/llama.cpp)
 
 ---
 
