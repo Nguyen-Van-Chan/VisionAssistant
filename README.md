@@ -3,7 +3,6 @@
 ## 🌏 English | [Tiếng Việt](#tiếng-việt)
 
 ## Introduction
-
 VisionAssistant is a mobile application built with Expo/React Native that helps users recognize objects and scenes through computer vision. The app captures images from the camera and uses a language model (LLM) to provide descriptions of what's being seen, making it particularly useful for visually impaired users.
 
 ## System Requirements
